@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Customer Exercise Survey">
+    <title>Customer Exercise Survey</title>
+</head>
+<body>
+
+    <form>
+        <fieldset>
+            <legend>Customer Exercise Survey</legend>
+            
+                <label for="storeNumber">Store Number</label>
+                <select name="storeNumber" id="storeNumber">
+                    <option value="3109">3109</option>
+                    <option value="2421">2421</option>
+                    <option value="5357">5357</option>
+                </select>
+                <fieldset>
+                    <legend>When you visted:</legend>
+                    <label for="dateVisted">Date Visted:</label>
+                    <input type="date" name="dateVisted" id="">
+                    <br>
+                    <label for="time">Time:</label>
+                    <input type="time" name="time" id="">
+                </fieldset>
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+                <fieldset>
+                <legend>What would you rate your satisfaction with your visit?</legend>
+
+                <input type="radio" name="satisfied" id="radioLink">
+                <label for="radio">Satisfied</label>
+                <br>
+                <input type="radio" name="satisfied" id="radioLink">
+                <label for="radio">Neither Satisfied nor Dissatisfied</label>
+                <br>
+                <input type="radio" name="satisfied" id="radioLink">
+                <label for="radio">Dissatisfied</label>
+            </fieldset>
+
+            <label for="exercise">Tell us about your exercise:</label>
+            <br>
+            <textarea name="exercise" id="exercise" cols="30" rows="4"></textarea>
+            <br>
+            <label for="lastMonth">Times visted in the last month</label>
+            <br>
+            <input type="number" id="lastMonth">
+                <br>
+            <input type="checkbox" id="">
+            <label for="checkbox">Please check the box if you would be willing to be contacted about your experience</label>
+            <br>
+            <input type="submit" >
+
+
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
